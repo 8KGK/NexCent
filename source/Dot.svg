@@ -1,0 +1,6 @@
+<svg viewBox="0 0 46 10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46.000000" height="10.000000" fill="none" customFrame="#000000">
+	<rect id="Dot" width="46.000000" height="10.000000" x="0.000000" y="0.000000" />
+	<circle id="Ellipse 5" cx="5" cy="5" r="5" fill="rgb(76,175,79)" />
+	<circle id="Ellipse 6" cx="23" cy="5" r="5" opacity="0.300000012" fill="rgb(76,175,79)" />
+	<circle id="Ellipse 7" cx="41" cy="5" r="5" opacity="0.300000012" fill="rgb(76,175,79)" />
+</svg>
