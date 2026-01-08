@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: white;
 }
 
@@ -549,5 +551,268 @@ color: rgba(77, 77, 77, 1);
     font-weight: 600;
     text-decoration: none;
     display: inline-flex;
+    align-items: center;
+}
+
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.community-section {
+    padding: 48px 0 96px 0;
+    background-color: #ffffff;
+}
+
+.community-header {
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 48px;
+}
+
+.community-header h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    color: #4D4D4D;
+    margin-bottom: 16px;
+}
+
+.community-header p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #717171;
+    line-height: 24px;
+}
+
+
+.community-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.community-card {
+    flex: 1;
+    min-width: 280px;
+    position: relative;
+}
+
+.card-image img {
+    width: 100%;
+    height: 286px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+
+.card-content {
+    background: #F5F7FA;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    
+    width: 85%;
+    margin: 0 auto;
+    margin-top: -60px; 
+    position: relative;
+    box-shadow: 0px 8px 16px rgba(171, 190, 209, 0.4);
+}
+
+.card-content h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #717171;
+    margin: 0 0 16px 0;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+
+.read-more {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4CAF4F;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.cta-section {
+    padding: 64px 0;
+    background-color: #F5F7FA;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    color: #263238;
+    margin: 0 0 32px 0;
+    line-height: 76px;
+}
+
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 32px;
+    background: #4caf4f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.site-footer {
+    background-color:rgba(38, 50, 56, 1); 
+    padding: 64px 0;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    gap: 30px;
+}
+
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.brand-col {
+    max-width: 350px;
+    flex: 1.2;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.logo-text {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.copyright {
+    font-size: 14px;
+    line-height: 24px;
+    color: #F5F7FA;
+    margin-bottom: 40px;
+    opacity: 0.8; 
+}
+
+
+.social-links {
+    display: flex;
+    gap: 16px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+
+.links-col {
+    flex: 1;
+}
+
+.links-col h4, 
+.subscribe-col h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 24px 0;
+    color: #fff;
+}
+
+.links-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links-col li {
+    margin-bottom: 12px;
+}
+
+.links-col a {
+    color: #F5F7FA;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+.subscribe-col {
+    flex: 1.2;
+}
+
+.subscribe-form {
+    position: relative;
+    max-width: 255px;
+}
+
+.subscribe-form input {
+    width: 100%;
+    padding: 10px 40px 10px 16px; 
+    border-radius: 8px;
+    border: none;
+    background: #3c464c; 
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    box-sizing: border-box; 
+    outline: none;
+}
+
+.subscribe-form input::placeholder {
+    color: #D9DBE1;
+}
+
+.subscribe-form button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%); 
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
     align-items: center;
 }
